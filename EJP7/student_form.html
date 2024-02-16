@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Details Form</title>
+</head>
+<body>
+    <h2>Student Details Form</h2>
+    <form action="StudentDetailsServlet" method="post">
+        <label for="roll">Roll:</label>
+        <input type="text" name="roll" required><br><br>
+
+        <label for="name">Name:</label>
+        <input type="text" name="name" required><br><br>
+
+        <label for="age">Age:</label>
+        <input type="text" name="age" required><br><br>
+
+        <label for="sex">Sex:</label>
+        <input type="radio" name="sex" value="Male" checked>Male
+        <input type="radio" name="sex" value="Female">Female<br><br>
+
+        <label for="qualification">Qualification:</label>
+        <input type="text" name="qualification" required><br><br>
+
+        <label for="percentage">Percentage of Marks:</label>
+        <input type="text" name="percentage" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
