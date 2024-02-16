@@ -1,0 +1,8 @@
+module Arithmetic {
+    interface Calculator {
+        float add(in float operand1, in float operand2);
+        float subtract(in float operand1, in float operand2);
+        float multiply(in float operand1, in float operand2);
+        float divide(in float operand1, in float operand2);
+    };
+};
