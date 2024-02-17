@@ -2,8 +2,7 @@ import java.sql.*;
 public class EJP4 {
     public static void main(String args[]) {
         try {
-            Class.forName("com.mysql.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Db1", "root", "gct2018");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Db2", "gct", "password");
             PreparedStatement ps = con.prepareStatement("select * from student");
             ResultSet rs = ps.executeQuery();
             ResultSetMetaData rsmd = rs.getMetaData();

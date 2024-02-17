@@ -2,8 +2,7 @@ import java.sql.*;
 class EJP3 {
     public static void main(String args[]) {
         try {
-            Class.forName("com.mysql.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Db1", "root", "gct2018");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Db2", "gct", "password");
             DatabaseMetaData dbmd = con.getMetaData();
             System.out.println("Driver Name: " + dbmd.getDriverName());
             System.out.println("Driver Version: " + dbmd.getDriverVersion());
