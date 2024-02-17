@@ -1,0 +1,9 @@
+<servlet>
+    <servlet-name>FileServlet</servlet-name>
+    <servlet-class>FileServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>FileServlet</servlet-name>
+    <url-pattern>/FileServlet</url-pattern>
+</servlet-mapping>
